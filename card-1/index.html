@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Card 1</title>
+</head>
+
+<body class="w-full h-full bg-neutral-600">
+    <!-- card -->
+    <div class="relative w-80 mt-6 mx-auto rounded-xl">
+
+        <!-- btn plus -->
+        <div class="absolute w-2/12 aspect-square rounded-full bg-rose-500
+        -right-1/4 top-1/4 -translate-x-full shadow-lg shadow-rose-600/40">
+            <span class="absolute w-6 h-0.5 bg-white top-1/2 left-1/2
+                -translate-y-1/2 -translate-x-1/2"></span>
+            <span class="absolute w-6 h-0.5 bg-white top-1/2 left-1/2 rotate-90
+                -translate-y-1/2 -translate-x-1/2"></span>
+        </div>
+        
+        <!-- top -->
+        <div class="w-full bg-gray-200 flex flex-col items-center py-6
+            rounded-tl-xl rounded-tr-xl overflow-hidden">
+        
+            <div class="w-2/4">
+                <img class="w-full" src="/Avatars Default with Backdrop.png" alt="">
+            </div>
+
+            <h2 class="mt-4 text-xl font-bold">Leslie Walton</h2>
+
+            <p class="mt-2 text-sm text-gray-500 mb-1">@Lesliew</p>
+
+            <p class="text-sm text-gray-500">Product Designer, Kyiv</p>
+        </div>
+
+        <!-- bottom -->
+        <div class="w-full bg-white flex flex-col items-center py-6
+            rounded-bl-xl rounded-br-xl overflow-hidden">
+            
+            <!-- social -->
+            <div class="w-full flex flex-row justify-around text-center">
+                <div class="shots">
+                    <p class="font-bold">17</p>
+                    <p class="text-gray-400">shots</p>
+                </div>
+
+                <div class="following">
+                    <p class="font-bold">143</p>
+                    <p class="text-gray-400">following</p>
+                </div>
+
+                <div class="follower">
+                    <p class="font-bold">57</p>
+                    <p class="text-gray-400">follower</p>
+                </div>
+            </div>
+
+            <!-- btn send message -->
+            <div class="w-full text-center my-8">
+                <button class="py-3 px-10 bg-teal-500 rounded-full text-white font-bold">Send message</button>
+            </div>
+
+            <!-- more -->
+            <div class="flex flex-row items-center">
+                <p class="text-sm text-gray-500 uppercase">more</p>
+
+                <img src="/mingcute_down-line.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

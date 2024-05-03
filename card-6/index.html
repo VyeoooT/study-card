@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Card 6</title>
+</head>
+
+<body class="w-full h-lvh flex flex-col items-center justify-center linear-gradient-custom">
+    <!-- card -->
+    <div class="w-80 flex flex-col items-center rounded-custom bg-white shadow-gray-500 shadow-2xl overflow-hidden">
+        <!-- top -->
+        <div class="relative w-full flex flex-col items-center">
+            <!-- background -->
+            <div class="w-full">
+                <img class="w-full aspect-video object-cover" src="/img/bg.jpg" alt="">
+            </div>
+
+            <!-- avatar -->
+            <div class="absolute w-1/2 top-1/2 shadow-gray-400 shadow-xl rounded-full">
+                <img class="w-full" src="/img/avt.png" alt="">
+            </div>
+        </div>
+
+        <!-- bottom -->
+        <div class="w-full px-4">
+            <!-- more-btn -->
+            <div class="w-full flex flex-col items-end mt-8">
+                <span class="w-1 h-1 bg-gray-800 rounded-full mb-1"></span>
+                <span class="w-1 h-1 bg-gray-800 rounded-full mb-1"></span>
+                <span class="w-1 h-1 bg-gray-800 rounded-full"></span>
+            </div>
+
+            <!-- info -->
+            <div class="w-full text-center mt-8">
+                <!-- name -->
+                <p class="text-2xl text-gray-800 font-semibold">Morgan Sweeney</p>
+
+                <!-- position -->
+                <p class="text-sm text-gray-500 mt-1">Ant Collector</p>
+            </div>
+
+            <!-- social -->
+            <div class="w-full flex flex-row flex-wrap items-center justify-around py-5">
+                <!-- follower -->
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-cyan-500">12</p>
+                    <p class="text-sm text-gray-500">Followers</p>
+                </div>
+
+                <!-- following -->
+                <div class="text-center">
+                    <p class="text-3xl font-bold text-cyan-500">1000</p>
+                    <p class="text-sm text-gray-500">Following</p>
+                </div>
+            </div>
+
+            <!-- button follow -->
+            <div class="w-full text-center my-5">
+                <button class="w-full py-3 rounded-full bg-yellow-400 text-black font-medium">Follow</button>
+            </div>
+
+            <!-- description -->
+            <div class="pb-8">
+                <p class="text-gray-500 text-justify leading-4">
+                    Morgan has collected ants since they were six years old and now has many dozen ants but none in their plants.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

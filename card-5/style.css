@@ -1,0 +1,15 @@
+.w-standard {
+    width: 36rem;
+}
+
+.w-1-2 {
+    width: 18rem;
+}
+
+.w-x2 {
+    width: 72rem;
+}
+
+.linear-gradient-custom {
+    background-image: linear-gradient(to bottom, #d0e58e, #bfdf91, #aed994, #a0d297, #93cb9a);
+}

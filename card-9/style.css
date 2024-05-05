@@ -1,0 +1,16 @@
+.w-x2 {
+    width: 40rem;
+}
+
+.effect {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: ellipse(60% 100% at 5% 0%);
+}
+
+.linear-gradient-custom {
+    background-image: linear-gradient(to right top, #faa48a, #ff948d, #ff8398, #ff74a9, #ff69c1);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Card 8</title>
+</head>
+
+<body class="w-full h-lvh flex flex-col items-center justify-center bg-black">
+    <!-- card -->
+    <div class="w-40 rounded-3xl border-4 border-cyan-400 bg-black overflow-hidden">
+        <!-- top -->
+        <div class="w-full relative pt-10 pb-4">
+            <!-- effect -->
+            <div class="effect bg-cyan-400"></div>
+
+            <!-- social -->
+            <div class="absolute top-5 right-5">
+                <img class="mb-2" src="/img/icon-fb.png" alt="">
+                <img class="mb-2" src="/img/icon-git.png" alt="">
+                <img src="/img/icon-tw.png" alt="">
+            </div>
+
+            <!-- avatar -->
+            <div class="flex flex-row justify-center translate-x-0">
+                <img class="w-1/2 bg-black p-1 rounded-full" src="/img/avt.png" alt="">
+            </div>
+        </div>
+
+        <!-- bottom -->
+        <div class="w-full flex flex-col pt-3 pb-8 px-5">
+            <!-- info -->
+            <div class="w-full text-white text-center">
+                <!-- name -->
+                <p class="text-2xl font-medium">Richard Nicole</p>
+
+                <!-- position -->
+                <p class="text-sm font-light">Web Developer</p>
+            </div>
+
+            <!-- rating -->
+            <div class="flex flex-row flex-wrap justify-center my-5">
+                <img class="mr-1" src="/img/icon-star-fill.png" alt="">
+                <img class="mr-1" src="/img/icon-star-fill.png" alt="">
+                <img class="mr-1" src="/img/icon-star-fill.png" alt="">
+                <img class="mr-1" src="/img/icon-star-fill.png" alt="">
+                <img src="/img/icon-star-no-fill.png" alt="">
+            </div>
+
+            <!-- button -->
+            <div class="flex flex-row justify-around">
+                <button class="px-6 py-2 bg-cyan-400 rounded-full font-medium">About Me</button>
+                <button class="px-6 py-2 bg-cyan-400 rounded-full font-medium">Hire Me</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

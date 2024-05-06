@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Card 13</title>
+</head>
+
+<body class="w-full h-lvh flex flex-col items-center justify-center linear-gradient-custom">
+    <!-- card -->
+    <div class="w-96 rounded-3xl bg-white shadow-gray-600/10 shadow-lg">
+        <!-- top -->
+        <div class="w-full flex flex-col">
+            <!-- header -->
+            <div class="flex flex-row justify-between mx-8 my-8">
+                <!-- logo -->
+                <div>
+                    <img src="/img/icon-logo.png" alt="">
+                </div>
+
+                <!-- cart -->
+                <div>
+                    <img src="/img/icon-cart.png" alt="">
+                </div>
+            </div>
+
+            <!-- image - product -->
+            <div class="w-10/12 mx-auto">
+                <img class="w-full" src="/img/shoes.png" alt="">
+            </div>
+        </div>
+
+        <!-- bottom -->
+        <div class="w-full flex flex-col px-6 py-6">
+            <!-- info -->
+            <div class="flex flex-col items-start">
+                <!-- name - product -->
+                <p class="text-2xl font-medium">ADDIDAS GAZE ZX</p>
+
+                <!-- description -->
+                <p class="mt-2 text-base text-gray-600 leading-5 text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ipsa harum quia quidem.
+                </p>
+
+                <!-- rate -->
+                <div class="flex flex-row flex-wrap -ml-1">
+                    <img src="/img/icon-star-fill.png" alt="">
+                    <img src="/img/icon-star-fill.png" alt="">
+                    <img src="/img/icon-star-fill.png" alt="">
+                    <img src="/img/icon-star-fill.png" alt="">
+                    <img src="/img/icon-star-light.png" alt="">
+                </div>
+            </div>
+
+            <!-- colours - price -->
+            <div class="flex flex-row flex-wrap justify-between items-center my-5">
+                <!-- colour -->
+               <div class="flex flex-row flex-wrap items-center">
+                    <p class="text-lg font-medium text-gray-500 mr-2">Colour:</p>
+
+                    <!-- color - blue -->
+                    <div class="border-2 rounded-full bg-blue-600 p-2px mr-1">
+                        <div class="border-4 rounded-full bg-white">
+                            <!-- chosse color -->
+                            <div class="w-4 h-4 bg-blue-600 rounded-full"></div>
+                        </div>
+                    </div>
+
+                    <!-- color - pink -->
+                    <div class="w-4 h-4 bg-pink-600 rounded-full mr-2"></div>
+
+                    <!-- color - yellow -->
+                    <div class="w-4 h-4 bg-yellow-600 rounded-full"></div>
+               </div>
+
+               <!-- price -->
+               <div class="flex flex-col items-center">
+                    <p class="text-3xl text-gray-600 font-semibold">$ 09.00</p>
+                    <p class="text-sm text-gray-500 font-medium">Nine dollar only</p>
+               </div>
+            </div>
+
+            <!-- button -->
+            <div class="w-full text-center">
+                <button class="w-full py-3 linear-gradient-custom-2 rounded-full text-lg font-medium text-white">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

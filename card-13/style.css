@@ -1,0 +1,19 @@
+.w-x2 {
+    width: 48rem;
+}
+
+.shadow-custom {
+    box-shadow: 0px 3px 0px 7px #6BC89B;
+}
+
+.linear-gradient-custom {
+    background-image: linear-gradient(to right bottom, #00a3f7, #44bdf1, #5d5de3, #8c1bc0);
+}
+
+.linear-gradient-custom-2 {
+    background-image: linear-gradient(110deg, #00a3f7, #44bdf1, #5d5de3, #8c1bc0);
+}
+
+.p-2px {
+    padding: 2px;
+}

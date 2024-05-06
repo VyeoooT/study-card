@@ -1,0 +1,23 @@
+.w-x2 {
+    width: 40rem;
+}
+
+.shadow-custom {
+    box-shadow: 0px 3px 0px 7px #6BC89B;
+}
+
+.linear-gradient-custom {
+    background-image: linear-gradient(to bottom, #2e4a6a, #273f5b, #20354c, #1a2b3d, #14212f);
+}
+
+.linear-gradient-custom-2 {
+    background-image: radial-gradient(circle, #e4912e, #eb9b41, #f1a552, #f7b063, #fdba74);
+}
+
+.bg-custom {
+    background-color: #1E3148;
+}
+
+.mb-custom {
+    margin-bottom: -3px;
+}

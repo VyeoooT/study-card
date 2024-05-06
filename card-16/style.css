@@ -1,0 +1,11 @@
+.w-x2 {
+    width: 40rem;
+}
+
+.linear-gradient-custom {
+    background-image: linear-gradient(to right bottom, #e520d4, #bd26d1, #922bcb, #622ec3, #182eb8);
+}
+
+.h-custom {
+    height: 2px;
+}

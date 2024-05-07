@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Card 22</title>
+</head>
+
+<body class="w-full h-lvh flex flex-col items-center justify-center bg-url">
+    <!-- card -->
+    <div class="w-standard flex flex-row bg-slate-700 gap-x-7 pe-10">
+        <!-- left -->
+        <div class="flex flex-col justify-center relative basis-1/2 bg-orange-600 border-custom">
+            <!-- img -->
+            <div class="absolute w-150 -left-1/3">
+                <img class="w-full" src="/img/shoes.png" alt="">
+            </div>
+
+            <!-- arrow - left/right -->
+            <div class="w-full flex flex-row absolute translate-x-1/4 bottom-10 space-x-4">
+                <img src="img/mdi_arrow-left-thin.png" alt="">
+                <img src="img/mdi_arrow-right-thin.png" alt="">
+            </div>
+        </div>
+
+        <!-- right -->
+        <div class="w-full flex flex-col gap-y-20 basis-1/2 my-8">
+            <!-- header -->
+            <div class="flex flex-row justify-between items-center">
+                <!-- brand -->
+                <p class="basis-3/6 text-xl text-orange-600 font-bold">Arimax</p>
+
+                <!-- icon -->
+                <div class="basis-2/6 flex flex-row justify-between">
+                    <img src="/img/material-symbols_search.png" alt="">
+                    <img src="/img/typcn_user.png" alt="">
+                    <img src="/img/mdi_cart.png" alt="">
+                </div>
+            </div>
+
+            <!-- info -->
+            <div class="flex flex-col justify-between items-start gap-5">
+                <!-- collection -->
+                <div class="text-white space-y-3">
+                    <p>Winter Collection</p>
+                    <p class="text-3xl font-extrabold">Men Black Sneakers</p>
+                </div>
+
+                <!-- price -->
+                <div class="flex flex-row items-center text-white space-x-8">
+                    <!-- price sale -->
+                    <p class="basis-1/4 text-2xl font-bold">$150</p>
+
+                    <!-- price old -->
+                    <p class="flex-1 text-xl line-through decoration-red-600">$200</p>
+                </div>
+
+                <!-- size -->
+                <div class="w-4/5 flex flex-row justify-between text-white text-sm">
+                    <p>SIZE</p>
+                    <p>7</p>
+                    <p>8</p>
+                    <p>9</p>
+                    <p>10</p>
+                    <p>11</p>
+                </div>
+
+                <!-- colors -->
+                <div class="w-3/5 flex flex-row justify-between items-center">
+                    <p class="text-sm text-white">COLOR</p>
+
+                    <!-- color -->
+                    <div class="w-5 h-5 rounded-full bg-yellow-500"></div>
+                    <div class="w-5 h-5 rounded-full bg-black"></div>
+                    <div class="w-5 h-5 rounded-full bg-sky-500"></div>
+                </div>
+
+                <!-- purchase -->
+                <div class="w-full flex flex-row justify-start items-center text-white text-sm">
+                    <!-- buy now -->
+                    <div class="flex flow-row basis-1/2 items-center space-x-2">
+                        <img src="/img/solar_cart-bold.png" alt="">
+                        <p>Buy Now</p>
+                    </div>
+                    
+                    <!-- add to cart -->
+                    <div class="flex flow-row basis-1/2 items-center space-x-2">
+                        <img src="/img/mdi_cart.png" alt="">
+                        <p>Add To Cart</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

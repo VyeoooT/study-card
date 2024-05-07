@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.w-standard {
+    width: 42rem;
+}
+
+.w-x2 {
+    width: 84rem;
+}
+
+.w-1-2 {
+    width: 21rem;
+}
+
+.w-150 {
+    width: 150%;
+}
+
+.bg-url {
+    background-image: url('/img/bg.png');
+    /* background-repeat: no-repeat; */
+}
+
+.border-custom {
+    border-radius: 0% 50% 50% 0%;
+}

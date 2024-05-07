@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700);
+body {
+    font-family: "Raleway"
+}
+
+.w-standard {
+    width: 42rem;
+}
+
+.w-x2 {
+    width: 84rem;
+}
+
+.w-1-2 {
+    width: 21rem;
+}
+
+.bg-custom {
+    background-color: #AEDAA6;
+}
+
+.w-custom-2px {
+    width: 2px;
+}
+
+.h-custom-2px {
+    height: 2px;
+}

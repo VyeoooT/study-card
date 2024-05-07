@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Card 20</title>
+</head>
+
+<body class="w-full h-lvh flex flex-col items-center justify-center bg-custom">
+    <!-- card -->
+    <div class="w-standard bg-white shadow-gray-400/50 shadow-xl">
+        <!-- header -->
+        <div class="flex flex-row justify-between items-center mx-6 my-6">
+            <!-- back to -->
+            <div class="flex flex-row">
+                <img src="/img/icon-back.png" alt="">
+                <p class="ml-2 text-base text-gray-500">BACK TO ALL PLANTS</p>
+            </div>
+
+            <!-- wishlist -->
+            <div>
+                <img src="/img/icon-heart.png" alt="">
+            </div>
+        </div>
+
+        <!-- line -->
+        <div class="w-full h-custom-2px bg-gray-200"></div>
+
+        <!-- container - content -->
+        <div class="w-full flex flex-row">
+            <!-- left -->
+            <div class="flex justify-center items-center basis-2/5">
+                <!-- img -->
+                <div class="w-full mx-10">
+                    <img class="w-full" src="/img/img-product.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- line -->
+            <div class="w-custom-2px bg-gray-200"></div>
+            
+            <!-- right -->
+            <div class="basis-3/5 ml-6 mr-14 py-6 text-gray-500">
+                <!-- name - product -->
+                <div class="w-full text-left">
+                    <p class="uppercase text-3xl">classic peace lily</p>
+                    <p class="uppercase text-base">popular house plant</p>
+                </div>
+
+                <!-- price -->
+                <div class="py-5 text-left">
+                    <p class="text-4xl font-light">$ 18</p>
+                </div>
+
+                <!-- about -->
+                <div>
+                    <p class="text-justify text-base font-light">
+                        Classic Peace Lily is a spathiphyllum floor plants arranged in a bamboo planter with a blue & red ribbom and butterfly pick
+                    </p>
+                </div>
+
+                <!-- button -->
+                <div class="flex flex-row flex-wrap justify-between py-5">
+                    <button class="uppercase border-2 px-8 py-2 font-medium">add to cart</button>
+                    <button class="uppercase border-2 px-8 py-2 font-medium">wishlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

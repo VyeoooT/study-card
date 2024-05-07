@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.w-standard {
+    width: 42rem;
+}
+
+.w-x2 {
+    width: 84rem;
+}
+
+.w-1-2 {
+    width: 21rem;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair Display');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-opensan {
+    font-family: "Open Sans", serif;
+}
+
+.w-standard {
+    width: 42rem;
+}
+
+.w-x2 {
+    width: 84rem;
+}
+
+.w-1-2 {
+    width: 21rem;
+}
+
+.bg-url {
+    background: url('/img/bg.jpg') no-repeat center center fixed;
+}
+
+.border-custom {
+    border-radius: 0% 50% 50% 0%;
+}
+
+.aspect-custom {
+    aspect-ratio: 9/16;
+}
+
+.box-shadow-custom {
+    box-shadow: inset 0px 5px 5px 0px rgba(0,0,0,0.2);
+}

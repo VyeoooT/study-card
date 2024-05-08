@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Card 25</title>
+</head>
+
+<body class="w-full h-lvh flex flex-col items-center justify-center linear-gradient-custom">
+    <!-- card -->
+    <div class="w-standard bg-white flex flex-col gap-y-7 pl-10 py-10 shadow-neutral-600/50 shadow-xl overflow-hidden">
+        <!-- header -->
+        <div class="flex flex-row justify-between items-center gap-x-10 pe-10">
+            <!-- back to -->
+            <div class="w-full bg-blue-700 py-2 hover:bg-gray-700">
+                <img class="ml-2" src="/img/icon-arrow-left.png" alt="">
+            </div>
+
+            <!-- new products -->
+            <div class="flex-none">
+                <p class="text-xl uppercase font-semibold">New Products</p>
+            </div>
+        </div>
+
+        <!-- content -->
+        <div class="flex flex-row gap-x-1 pe-10">
+            <!-- left -->
+            <div class="flex flex-col items-start grow shrink basis-1/2 space-y-2">
+                <!-- info -->
+                <div class="flex flex-col">
+                    <!-- name -->
+                    <p class="text-6xl font-extrabold">Nurton</p>
+
+                    <!-- tag -->
+                    <p class="text-2xl uppercase text-neutral-600 font-monterrat leading-3">office chair</p>
+
+                    <!-- price -->
+                    <p class="text-2xl font-fjalla-one text-neutral-800 mt-5">$210.00</p>
+                </div>
+
+                <!-- img -->
+                <div class="w-11/12 mx-auto">
+                    <img class="w-full" src="/img/chair.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- right -->
+            <div class="flex flex-col grow shrink basis-1/2 gap-y-8">
+                <!-- description -->
+                <div>
+                    <p class="text-base font-light font-opensan leading-7">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi porro repellendus at totam quisquam, fugiat architecto ut, nihil quibusdam eos eligendi hic eaque, placeat commodi nobis natus voluptatum. Eligendi, facilis.
+                    </p>
+                </div>
+
+                <!-- in stock -->
+                <div class="flex flex-col gap-y-3">
+                    <div>
+                        <p class="text-base text-lime-600 font-bold">In stock</p>
+                    </div>
+                
+                    <!-- rate -->
+                    <div class="flex flex-row -ml-1">
+                        <img src="/img/icon-star-fill.png" alt="">
+                        <img src="/img/icon-star-fill.png" alt="">
+                        <img src="/img/icon-star-fill.png" alt="">
+                        <img src="/img/icon-star-fill.png" alt="">
+                        <img src="/img/icon-star-light.png" alt="">
+                        
+                        <p class="ml-3 text-base text-neutral-600">(64 reviews)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="flex flex-col gap-y-5">
+            <!-- line -->
+            <div class="block pt-1 bg-neutral-600 relative">
+                <!-- gray -->
+                <div class="w-1/4 absolute top-0 left-0 pt-1 bg-blue-700"></div>
+            </div>
+
+            <!-- info - cart -->
+            <div class="flex flex-row items-center gap-x-1 pe-10">
+                <!-- text -->
+                <div class="uppercase flex-1">
+                    <p class="text-sm font-semibold text-neutral-600">recommended by</p>
+                    <p class="text-xl font-semibold text-blue-700">andrew palmer</p>
+                </div>
+
+                <!-- add to cart -->
+                <div class="">
+                    <button class="px-8 py-3 bg-blue-700 text-white rounded-full hover:outline-2 hover:outline hover:outline-blue-700 hover:bg-white hover:text-blue-700">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

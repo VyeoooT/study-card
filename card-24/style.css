@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    font-family: Montserrat;
+}
+
+.w-standard {
+    width: 34rem;
+    /* width: 550px; */
+}
+
+.w-x2 {
+    width: 68rem;
+}
+
+.w-1-2 {
+    width: 17rem;
+}
+
+.w-140 {
+    width: 140px;
+}
